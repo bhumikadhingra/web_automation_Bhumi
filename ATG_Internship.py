@@ -35,7 +35,7 @@ def test_case_2():
     time.sleep(7)
     
     
-path = r'D:\PycharmProjects\Coding_Elements\Web Development\chromedriver.exe'
+path = r'../chromedriver.exe'
 browser = webdriver.Chrome(path)
 test_case_2()
   
