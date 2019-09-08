@@ -34,11 +34,12 @@ def test_case_2():
     post[-1].click()
     time.sleep(7)
     
-    
-path = r'../chromedriver.exe'
-browser = webdriver.Chrome(path)
+   
+options = webdriver.ChromeOptions()
+options.headless = True
+browser = webdriver.Chrome(chrome_options = options)
 test_case_2()
-  
+print("Code executed successfully. Output sent")  
 
 
 # In[ ]:
