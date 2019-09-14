@@ -24,7 +24,7 @@ def test_case_1():
 
 def test_case_2():
     test_case_1()
-    browser.get('http://www.atg.party/article/)
+    browser.get('http://www.atg.party/article/')
     time.sleep(5)
     title = browser.find_element_by_id('title')
     title.send_keys('Final Test Case')
